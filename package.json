@@ -1,0 +1,29 @@
+{
+  "name": "cartao-simples-sequelize",
+  "version": "1.0.0",
+  "description": "Estudo feito para realização de uma operação em um aplicativo que estarei trabalhando em breve",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "Coopermoney",
+    "Sequelize",
+    "JS",
+    "Node.js",
+    "Express",
+    "Socket.io"
+  ],
+  "author": "Alissin Santos",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.13.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "sequelize-cli": "^5.5.1"
+  }
+}
